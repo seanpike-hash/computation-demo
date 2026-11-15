@@ -87,6 +87,23 @@ public class CalculatorTest {
 		
 		assertEquals(expected, result);
 	}
+
+	@ParameterizedTest(name = "{0} / {1} = {2}")
+	@DisplayName("Divide two numbers")
+	@CsvSource( 
+			{
+			"100, 2, 50",	
+			"100, -2, -50",
+			"-100, 2, -50",
+			"-100, -2, 50"
+			}
+		)
+	public void divide_twoNumbers(int input1, int input2, int expected) {
+
+		int result = calculator.divide(input1, input2);
+		
+		assertEquals(expected, result);
+	}
 	
 	
 	@Test
