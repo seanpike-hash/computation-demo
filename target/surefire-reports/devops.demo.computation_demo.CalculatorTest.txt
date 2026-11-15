@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: devops.demo.computation_demo.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.492 s -- in devops.demo.computation_demo.CalculatorTest
